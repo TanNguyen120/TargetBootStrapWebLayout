@@ -1,0 +1,304 @@
+#logo{
+    float: left;
+}
+
+#slogan{
+    color: darkgray;
+}
+
+#contact{
+    float: right;
+    color:rgb(194, 30, 30);
+    font-size:medium;
+    font-weight: bold;
+}
+
+#secondBox{
+    height: 5px;
+    border-bottom: 1px solid #7c7779;
+    background-color:rgb(245, 228, 245);
+    
+}
+
+#tile1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#parah{
+    padding-top: 10px;
+}
+
+#button1 {
+    background:linear-gradient(to bottom, #debc14 5%, #d65113 100%);
+	background-color:#debc14;
+	border-radius:34px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#a65021;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:13px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+#button1 :hover {
+	background:linear-gradient(to bottom, #d65113 5%, #debc14 100%);
+	background-color:#d65113;
+}
+
+#button1 :active {
+	position:relative;
+	top:1px;
+}
+
+#colButton{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#rowButton{
+    padding-top: 30px;
+}
+
+#or{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#button2 {
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:27px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:darkgrey;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:12px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+
+
+#carouselExampleControls{
+    padding: 5px;
+    background-color: darkseagreen;
+}
+
+#thirdBox{
+    margin-top: 30px;
+    border-bottom: dimgrey solid 1px;
+    padding-bottom: 40px;
+
+}
+
+#row4{
+    padding-top: 10px;
+    margin-top: 30px;
+    border-bottom: dimgrey solid 1px;
+    padding-bottom: 40px;
+}
+
+.caption{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.parah1{
+    color: dimgrey;
+    padding-top: 5px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+#row5{
+    padding-top: 10px;
+    margin-top: 30px;
+    border-bottom: dimgrey solid 1px;
+    padding-bottom: 40px;
+}
+
+#paraCaption{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+.row5Para{
+    color: dimgrey;
+    padding-top: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.row5Tile{
+    color: firebrick;
+    padding-top: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#row5Col2{
+    position: flex;
+    padding-top: 50px;
+    padding-left: 60px;
+    float: right;
+    
+}
+
+#row6{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+#row7{
+    padding-top: 10px;
+    margin-top: 30px;
+    border-bottom: dimgrey solid 1px;
+    padding-bottom: 40px;
+
+}
+
+.screenShot{
+    padding: 3px;
+    background-color: grey;
+}
+
+#row8{
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+#row8Para{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+#row9{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 10PX;
+
+}
+
+/* speech bubble css copy from internet*/
+.bubble {
+    position: relative;
+    background: #ffffff;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 0%;
+    padding: 0px;
+    border: rgb(129, 124, 124) solid 1px;
+    font-weight: 600;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 19px 18px 0;
+    border-color: transparent #ffffff transparent transparent;
+    bottom: -18px;
+    left: 5%;
+    margin-left: -9.5px;
+}
+.bubble:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    z-index: 0;
+    border-style: solid;
+    border-width: 0 20px 19px 0;
+    border-color: transparent #000000 transparent transparent;
+    bottom: -20px;
+    left: 5%;
+    margin-left: -9.5px;
+    display: block;
+}
+
+#praise{
+    color: rgb(114, 112, 112);
+}
+
+#cite{
+    position: absolute;
+    color: rgb(114, 112, 112);
+    font-size: 12px;
+    bottom: -35px;
+    left: 10%;
+    margin-left: -9.5px;
+}
+
+
+#row10{
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#grayLogo{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    box-shadow: gray;
+
+}
+
+#row11{
+    background:url(
+        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAACZJREFUGFdjZECA/wwMDIwgLphgYGCACYBpkCBcBUwBTpUwU+E6AJlsCAUelfMZAAAAAElFTkSuQmCC
+   ) repeat;
+   background-color:rgb(63, 70, 70);
+   z-index:-1;
+   padding-top: 50px ;
+   padding-bottom: 15px;
+   border: darkslategray solid 5px;
+
+}
+
+.row11Tile{
+    font-size: 25px;
+    font-weight: 600;
+    color: honeydew;
+}
+
+.row11Para{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(118, 131, 118);
+}
+
+#row12{
+    background: rgb(7, 12, 12);
+    padding: 20px;
+}
+
+#rightPara{
+    display: inline;
+    color: floralwhite;
+    font-weight: 500;
+}
+
+#citeAuthor{
+    color: rgb(134, 101, 17);
+}
